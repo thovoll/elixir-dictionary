@@ -10,4 +10,10 @@ defmodule Dictionary.WordList do
     word_list
     |> Enum.random()
   end
+
+  # delete later
+  def random_word() do
+    start()
+    |> Enum.random()
+  end
 end

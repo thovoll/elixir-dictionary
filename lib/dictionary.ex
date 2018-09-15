@@ -3,4 +3,5 @@ defmodule Dictionary do
 
   defdelegate start(), to: WordList
   defdelegate random_word(game), to: WordList
+  defdelegate random_word(), to: WordList
 end
